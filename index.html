@@ -1,4 +1,3 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Web Untangle</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,7 +52,7 @@ h1{margin:0;text-align:center;font:400 clamp(2rem,7vw,3.2rem)/1.05 var(--display
 (function(){
 'use strict';
 const NS='http://www.w3.org/2000/svg',$=s=>document.querySelector(s);
-const CC=[89,55,36,47,167,55,34,37,57,34,35,38,107,64,55,32,32,167,55,39,33,57,39,32,46];
+const CC=[89,55,36,47,167,55,34,36,57,47,34,39,107,64,55,32,32,167,55,39,33,57,35,34,47];
 const LEVELS=[{n:6,maxE:9,minE:8,minX:3,md:24,sc:1},{n:8,maxE:14,minE:13,minX:12,md:21,sc:.9},{n:10,maxE:19,minE:17,minX:26,md:19,sc:.8}];
 let n=6,LV=0,SC=1;
 const board=$('#board'),gE=$('#edges'),gN=$('#nodes'),msg=$('#msg'),live=$('#live'),musicBtn=$('#music');
@@ -349,5 +348,3 @@ musicBtn.addEventListener('click',function(){
 startLevel(0);
 })();
 </script>
-
-</body></html>
